@@ -1,14 +1,45 @@
 /*Estilos Generales */
 
-body {
-    font-family: 'Raleway', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
-
 
 /* Color */
 :root{
-    --color-text: var(#fff);
-    --color-featured: var(#0ccbee);
-    --color-background: var(#010100);
-    --color-footer: var(#0ccbf0);
+    --color-text: #fff;
+    --color-featured: #0ccbee;
+    --color-background: #010100;
+    --color-footer: #0ccbf0;
+    --color-hr: #141414;
 }
+
+body {
+   font-family: 'Raleway', sans-serif;
+   background-color: var(--color-background);
+   color: var(--color-text);
+}
+
+hr{
+    background-color: var(--color-hr);
+}
+
+/*NavBar */
+
+.navbar {
+    width: 100%;
+
+}
+
+.navbar img{
+    height: 30px;
+    color: var(--color-text);
+}
+
+/*Carousel*/
+.image-fix {
+    height: 950px;
+    width: 100%;
+}
+
+
