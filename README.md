@@ -43,7 +43,22 @@ Si tienes una sugerencia para mejorar esto, por favor bifurca el repositorio y c
 
 ## Autores
 
-- Guido - [tuPerfilDeGithub](https://github.com/gperzal)
+- Guido - [GPZ Dev](https://github.com/gperzal)
+
+# Viajes Chile
+
+# Descripción
+
+"Viajes Chile" es una página web diseñada para explorar la belleza natural y diversa de Chile. Ofrece a los usuarios la oportunidad de encontrar aventuras personalizadas, tours culturales y retiros relajantes, asegurando una experiencia inolvidable para cada visitante.
+
+![Vista de un hermoso paisaje chileno](https://i.ibb.co/MNPvrwL/tu-imagen.jpg)
+
+## Características
+
+- **Inicio:** Un carrusel de imágenes destacando los paisajes más impresionantes de Chile.
+- **¿Quiénes Somos?:** Información sobre la misión, visión y valores de nuestra agencia de viajes.
+- **Destacados:** Una selección de paquetes de viaje y destinos recomendados.
+- **Contacto:** Un formulario para que los visitantes puedan enviar sus consultas o solicitudes directamente.
 
 ## Contacto
 
