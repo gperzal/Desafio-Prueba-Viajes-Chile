@@ -20,8 +20,9 @@ body {
    color: var(--color-text);
 }
 
-hr{
+hr {
     background-color: var(--color-hr);
+   
 }
 
 /*Section NavBar */
@@ -48,13 +49,26 @@ hr{
     background-color: var(--color-featured);
     }
 
-
-
-
-
-
 /* Section Highlights */
+.card{
+    background-color: var(--color-featured);
+    color: var(--color-text);
+}
 
+.card body{
+    text-align: left;
+    
+}
+
+.card img{
+    height: 202.7px;
+     object-fit: cover;
+}
+
+/* Section Form */
+.btn{
+    background-color: var(--color-featured);
+}
 
 /* Section Footer */
 footer{
