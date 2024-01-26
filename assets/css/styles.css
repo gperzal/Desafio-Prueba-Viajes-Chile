@@ -43,3 +43,8 @@ hr{
 }
 
 
+/* Section Quienes Somos */
+.icon{
+    background-color: var(--color-featured);
+    }
+    
