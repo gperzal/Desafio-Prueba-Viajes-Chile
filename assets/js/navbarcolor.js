@@ -4,7 +4,7 @@
     // Encuentra el navbar por su clase
     const navbar = document.querySelector('.navbar');
     // Encuentra la sección "About Us" por su clase
-    const aboutUsSection = document.querySelector('.about-us-section');
+    const aboutUsSection = document.querySelector('#about-us-section');
 
     // Añade un evento de escucha para el scroll en la ventana
     window.addEventListener('scroll', () => {
