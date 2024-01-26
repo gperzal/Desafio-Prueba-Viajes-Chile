@@ -44,16 +44,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Inicio </a>
+                            <a class="nav-link active" href="#carousel-section">Inicio </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#about-us-section">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Descados</a>
+                            <a class="nav-link" href="#highlights-section">Descados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contact-section">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +64,7 @@
     <!-- Main content area -->
     <main>
         <!-- Carousel Section -->
-        <section>
+        <section id="carousel-section">
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -91,11 +91,11 @@
         </section>
 
         <!-- About US Section-->
-        <section class="container card-title">
+        <section id="about-us-section" class="container ">
             <div class="row">
                 <div>
-                    <h1 class="text-center pt-4">¿QUIÉNES SOMOS?</h1>
-                    <hr>
+                    <h2 class="text-center pt-4 titulo-text">¿QUIÉNES SOMOS?</h1>
+                        <hr>
                 </div>
 
                 <article class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 text-white">
@@ -139,16 +139,17 @@
                 </article>
 
             </div>
-            </div>
+
         </section>
 
         <!-- Section  Highlights-->
-        <section>
+        <section id="highlights-section" class="container ">
             <!-- Tarjetas -->
             <section class="container card-title">
-                <h1 class="text-center pt-4">DESTACADOS</h1>
-                <hr>
-
+                <div>
+                    <h2 class="text-center pt-4 titulo-text">DESTACADOS</h1>
+                        <hr>
+                </div>
                 <div class="row gy-4">
                     <article class="col-12 col-sm-12 col-md-4 col-lg-3 pb-4">
                         <div class="card h-200">
@@ -195,16 +196,18 @@
                         </div>
                     </article>
 
+
+
                 </div>
             </section>
 
         </section>
 
         <!-- Section  Form-->
-        <section class="container">
+        <section id="contact-section" class="container ">
             <div class="row">
-                <div class="titulo">
-                    <h1 class="text-center pt-4">CONTACTO</h1>
+                <div>
+                    <h1 class="text-center pt-4 titulo-text">CONTACTO</h1>
                     <hr>
                 </div>
                 <form action="">
@@ -224,7 +227,8 @@
                 </form>
             </div>
 
-            <button type="submit" class="btn text-white mb-5">Enviar</button>
+            <button id="enviarCorreo" type="button" class="btn text-white mb-5" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" title="Presiona para enviar a tu correo">Enviar</button>
         </section>
     </main>
     <!-- Footer -->
@@ -251,27 +255,22 @@
         </div>
     </footer>
 
+
+
+    <!-- Link Reference JS -->
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script type="text/javascript" src="./assets/js/navbarcolor.js"></script>
+    <script type="text/javascript" src="./assets/js/logica.js"></script>
+
     <!-- Link Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-
-    <!-- Link Reference JS -->
-    <script type="text/javascript" src="./assets/js/main.js"></script>
-
-
-    <!-- Link  CDN Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
+    <!-- Link JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 
 </body>

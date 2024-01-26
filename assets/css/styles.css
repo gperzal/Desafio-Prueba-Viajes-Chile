@@ -32,9 +32,14 @@ hr {
 
 }
 
+
 .navbar img{
     height: 30px;
     color: var(--color-text);
+}
+
+.navbar-color {
+    background-color: var(--color-footer) 
 }
 
 /*Section Carousel*/
