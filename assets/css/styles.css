@@ -1,0 +1,14 @@
+/*Estilos Generales */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Color */
+:root{
+    --color-text: var(#fff);
+    --color-featured: var(#0ccbee);
+    --color-background: var(#010100);
+    --color-footer: var(#0ccbf0);
+}
